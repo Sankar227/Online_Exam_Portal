@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+.text-primary {
+  color: $yellow-400 !important;
+}
+.card {
+  background-color: rgb(207 226 255 / 17%) !important;
+}
+.bg-light {
+  background-color: rgb(207 226 255 / 62%) !important;
+}
+.form-select {
+  font-weight: 700;
+}
+
+.container {
+  position: relative;
+}
+
+// .timer {
+//   position: absolute;
+//   top: 20px;
+//   right: 20px;
+//   font-size: 24px;
+//   font-weight: bold;
+//   padding: 10px;
+//   border-radius: 10px;
+//   background-color: $indigo-100;
+//   color: #fff;
+//   text-align: center;
+// }
+.timer {
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: bold;
+  // margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #f1b4eb21;
+  color: #fff;
+  // text-align: center;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
